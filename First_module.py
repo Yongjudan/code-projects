@@ -36,4 +36,3 @@ y_pred = logreg.predict(X_test)
 print (y_pred)
 logreg_accuracy = accuracy_score(y_test, y_pred)
 print(f'Logistic Regression Accuracy: {logreg_accuracy:.2f}')
-
